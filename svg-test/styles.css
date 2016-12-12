@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-object {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.nav-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+}
+
+object {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.diamond {
+    fill: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.diamond:hover {
+    fill: red;
+}
+
+.six-pointed-star {
+    fill: white;
+    fill-opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.six-pointed-star:hover {
+    fill-opacity: 1;
+}
+
+.eight-pointed-star {
+    fill: white;
+}
+
+.four-pointed-shape {
+    fill: white;
+}
