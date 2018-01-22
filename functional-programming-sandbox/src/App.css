@@ -1,0 +1,84 @@
+.App {
+  margin: 10px;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.App ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.App aside img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.App main h1 {
+  font-size: 45px;
+  color: #A7D0E9;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.Company > h2 {
+  color: #6298D1;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.PromotionGroup, .Office {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.PromotionGroup h3, .Office h3 {
+  font-style: italic;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #5E6A71;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Employee {
+  color: #8E908F;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: inline-block;
+  width: 50%;
+}
+
+.Employee h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 500px) {
+  .Employee {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 800px) {
+  .App aside, .App main {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .App aside {
+    width: 38%;
+  }
+
+  .App main {
+    width: 58%;
+    padding-left: 40px;
+  }
+
+  .App main h1 {
+    margin-top: 75px;
+  }
+}
